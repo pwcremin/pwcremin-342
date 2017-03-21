@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: pwcremin-342
+  host: pwcremin-342
+  disk_quota: 1024M
+  services:
+  - pwcremin-342-cloudantNoSQLDB
